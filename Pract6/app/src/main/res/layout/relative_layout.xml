@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main">
+
+    <TextView
+        android:id="@+id/label"
+        android:text="Username:"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/inputField"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/label"
+        android:layout_marginLeft="10dp"
+        android:hint="Enter username"/>
+
+    <Button
+        android:text="Login"
+        android:layout_below="@id/inputField"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
