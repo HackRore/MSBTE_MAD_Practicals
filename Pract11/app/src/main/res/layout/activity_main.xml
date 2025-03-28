@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Hobbies: "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+<!--    Check  Boxes-->
+    <CheckBox
+        android:id="@+id/checkboxReading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reading" />
+    <CheckBox
+        android:id="@+id/checkboxTravelling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tavvelling"/>
+
+    <CheckBox
+        android:id="@+id/checkboxGaming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gaming" />
+    <CheckBox
+        android:id="@+id/checkboxBlogging"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blogger"/>
+
+    <CheckBox
+        android:id="@+id/checkboxTracker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tracking" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Selection Will Appear Here:"
+        android:textSize="16sp"/>
+
+</LinearLayout>
